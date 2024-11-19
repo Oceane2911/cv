@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 56.69 46.14">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: #1e1e1c;
+        stroke: #1e1e1c;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <polygon class="st1" points="39.64 20.4 39.64 34.57 31.65 34.57 31.65 26.15 25.27 26.15 25.27 34.57 16.98 34.57 16.98 20.4 39.64 20.4"/>
+  <polygon class="st1" points="39.72 20.31 16.98 20.39 28.39 8.98 39.72 20.31"/>
+  <rect class="st0" x="25.27" y="34.57" width="6.38" height=".12"/>
+</svg>
