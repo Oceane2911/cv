@@ -1,19 +1,24 @@
+*{
+    padding: 2px;
+    margin: 0px;
+}
 body{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 100%;
+    grid-template-rows: 32% 10% ;
     grid-template-areas: 
     "main"
     "footer"
     "nav";
+    background-color: rgb(216, 224, 231);
 }
 header{
     grid-area: nav;
 }
 
-#contact{
+/* #contact{
     grid-area: footer;
-}
+} */
 main{
     grid-area: main;
     display: grid;
@@ -37,4 +42,21 @@ main{
 h1{
     grid-row: 1;
     grid-column: 2/5;
+}
+.nav{
+    display: none;
+}
+.picto{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    align-items: center;
+    /* position: fixed; */
+
+
+}
+.picto img{
+    height: 100%;
+    width: 50%;
 }
