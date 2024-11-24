@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
+/* couleur fond */
+body{
+    background-color: lightblue;
+}
 /* style téléphone */
 .inter button{
     background-color: #C6E5B1;
@@ -86,9 +90,19 @@
         justify-content: space-around
     }
     /* disposition des bouton */
-    .card button{
+    .card li {
+        background-color: #C6E5B1;
+        border-radius: 5px;
+        width: 15%;
+        list-style: none;
+    }
+    .card ul{
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card li~li{
+        width: 20%;
     }
     /* changement de style de navigation */
     .picto{

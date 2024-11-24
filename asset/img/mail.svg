@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 56.69 56.69">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.2, SVG Export Plug-In . SVG Version: 1.2.0 Build 154)  -->
+  <g>
+    <g id="Calque_1">
+      <g id="Calque_1-2" data-name="Calque_1">
+        <g>
+          <rect class="cls-1" x="33.85" y="43.48" width="22.69" height="12.84"/>
+          <polygon class="cls-1" points="55.74 44.01 48.51 48.09 48.29 48.22 45.35 49.88 37.08 45.51 33.85 43.8 33.85 43.48 56.24 43.56 55.65 43.9 55.74 44.01"/>
+          <polygon class="cls-1" points="42.12 48.41 33.85 56.24 33.85 43.64 37.08 45.51 42.12 48.41"/>
+          <polyline class="cls-1" points="56.54 56.28 48.29 48.22 48.55 48.07 48.66 48 55.65 43.9 56.37 43.48"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

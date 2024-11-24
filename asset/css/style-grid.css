@@ -2,47 +2,77 @@
     padding: 2px;
     margin: 0px;
 }
+/* création de la 1er grid */
 body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 32% 10% ;
+    grid-template-rows: 50% 10%  ;
     grid-template-areas: 
     "main"
     "footer"
     "nav";
-    background-color: rgb(216, 224, 231);
+    background-color: lightblue;
 }
 header{
     grid-area: nav;
 }
-
-/* #contact{
+/* disposition footer */
+#contact{
     grid-area: footer;
+}
+
+#contact div img{
+    width: 20%;
+}
+#contact ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .logo div p img a{
+    text-decoration: none;
 } */
+.crea{
+    display: flex;
+    justify-content: center;
+}
+/* création de la 2ème grid */
 main{
     grid-area: main;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: 10% repeat(4, 1fr);
 
 }
 .profil{
     /* grid-area: profil; */
-    grid-row: 2/3;
-    grid-column: 1/5;
-}
-.parcours{
     grid-row: 3/4;
     grid-column: 1/5;
+    background-color: aliceblue;
 }
-.competence{
+.parcours{
     grid-row: 4/5;
     grid-column: 1/5;
 }
+.competence{
+    grid-row: 5/6;
+    grid-column: 1/5;
+    background-color: aliceblue;
+}
 h1{
     grid-row: 1;
-    grid-column: 2/5;
+    grid-column: 2/5; 
 }
+h1~p{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    display: flex;
+    justify-content: center; 
+}
+/* mise en place de la nav version téléphone */
 .nav{
     display: none;
 }
@@ -60,4 +90,97 @@ h1{
     height: 100%;
     width: 50%;
 }
-@media screen and (min-width: 1024px){}
+.centre{
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
+@media screen and (min-width: 1024px){
+    body{
+        grid-template-columns: 100%;
+        grid-template-rows: 4% 42% 13%;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";
+    }
+    /* changement de style de navigation */
+    .picto{
+        display: none;
+    }
+    .nav{
+        list-style: none;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: aliceblue;
+        height: 50px;
+        width: 100%;
+    }
+    .nav li a{
+        text-decoration: none;
+    }
+    /* mise en page */
+    main{
+        grid-template-columns: 15% repeat(2, 25%) 40%;
+        grid-template-rows: repeat(5, 1fr) ;
+    }
+    /* disposition du profil */
+    .profil{
+        /* grid-area: profil; */
+        grid-row: 3/4;
+        grid-column: 2/5;
+        background-color: aliceblue;
+    }
+    /* disposition du parcours */
+    .parcours{
+        grid-row: 4/5;
+        grid-column: 2/5;
+    }
+    /* disposition du parcours */
+    .competence{
+        grid-row: 5/6;
+        grid-column: 2/5;
+    }
+    /* disposition du h1 */
+    h1{
+        grid-row: 1;
+        grid-column: 2/5;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    h1~p{
+        grid-row: 2/3;
+        grid-column: 2/5;
+        display: flex;
+        justify-content: center; 
+    }
+    .parcours li{
+        list-style: circle;
+    }
+    .photo{
+        grid-row: 1/4;
+        grid-column: 1/2;
+        background-color: #bef9f9;
+    }
+    .langue{
+        grid-row: 4/5;
+        grid-column: 1/2;
+        background-color: #bef9f9;
+    }
+    .centre{
+        grid-row: 5/6;
+        grid-column: 1/2;
+        background-color: #bef9f9;
+    }
+    /* style des h2 */
+    h2{
+        text-decoration: underline;
+    }
+    h3{
+        text-decoration: underline;
+    }
+}
