@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* typographie des listes dans parcours */
+.parcours li{
+    font-family: "Oswald", sans-serif;
+}
+/* typographie titre */
+h1{
+    font-family: "Playfair Display", serif;
+}
+h2{
+    font-family: "Playfair Display", serif;
+}
+h3{
+    font-family: "Playfair Display", serif;
+}
+/* typographie nav */
+.nav{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+/* typographie centre d'intérêt et langue */
+.centre{
+    font-family: "PT Serif", serif;
+}
+.langue{
+    font-family: "PT Serif", serif;
+}
